@@ -21,7 +21,7 @@ export const MOCK_CONTENT: ContentItem[] = [
     premiumVideoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1' // Sample secure link
   },
   {
-    id: 'his-and-hers-s01-2026-full-series',
+    id: '2',
     title: 'His & Hers S01 (2026)',
     description: 'A deep-sea documentary team discovers something ancient waking up in the Mariana Trench.',
     type: ContentType.MOVIE,
@@ -55,7 +55,7 @@ export const MOCK_CONTENT: ContentItem[] = [
     trailerId: 'LGu3GaZLnAk'
   },
   {
-    id: 'central-2025-full-movie',
+    id: '4',
     title: 'Central (2025)',
     description: 'The story is about the hero who comes to Chennai Central from a small village due to his family situation, what kind of hardships does he experience in the name of capitalism and how does he recover from it.',
     type: ContentType.MOVIE,
