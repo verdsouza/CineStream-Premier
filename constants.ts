@@ -68,7 +68,7 @@ export const MOCK_CONTENT: ContentItem[] = [
     price: 0,
     trailerId: 'aeRN9_CjX_U',
     streamUrls: {
-        server1: "https://short.icu/15oYK8lLf3"
+        server1: "https://short.icu/15oYK8lLf3?thumbnail=https://cinestreampremier.netlify.app/Central_2025.jpg"
     }
   },
   {
