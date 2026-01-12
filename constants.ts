@@ -101,7 +101,7 @@ export const MOCK_CONTENT: ContentItem[] = [
   },
   {
     id: '7',
-    title: 'Central (2025)',
+    title: 'Ikkis (2025)',
     description: 'The story is about the hero who comes to Chennai Central from a small village due to his family situation, what kind of hardships does he experience in the name of capitalism and how does he recover from it.',
     type: ContentType.MOVIE,
     thumbnailUrl: '/Ikkis_2026.jpg',
