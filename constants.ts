@@ -21,7 +21,7 @@ export const MOCK_CONTENT: ContentItem[] = [
     premiumVideoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1' // Sample secure link
   },
   {
-    id: '2',
+    id: 'his-and-hers-s01-2026-full-series',
     title: 'His & Hers S01 (2026)',
     description: 'A deep-sea documentary team discovers something ancient waking up in the Mariana Trench.',
     type: ContentType.MOVIE,
@@ -55,20 +55,20 @@ export const MOCK_CONTENT: ContentItem[] = [
     trailerId: 'LGu3GaZLnAk'
   },
   {
-    id: '4',
-    title: 'Cyber Drift',
-    description: 'Illegal street racing meets virtual reality hacking in this high-octane anime adaptation.',
+    id: 'central-2025-full-movie',
+    title: 'Central (2025)',
+    description: 'The story is about the hero who comes to Chennai Central from a small village due to his family situation, what kind of hardships does he experience in the name of capitalism and how does he recover from it.',
     type: ContentType.MOVIE,
-    thumbnailUrl: '/Cyber_Drift_Anime_2026.jpg',
-    backdropUrl: '/Cyber_Drift_Backdrop.jpg',
+    thumbnailUrl: '/Central_2025.jpg',
+    backdropUrl: '/Central_2025.jpg',
     rating: 'PG-13',
     duration: '1h 45m',
-    genre: ['Anime', 'Action'],
+    genre: ['Drama'],
     accessType: AccessType.FREE,
     price: 0,
-    trailerId: 'LGu3GaZLnAk',
+    trailerId: 'aeRN9_CjX_U',
     streamUrls: {
-        server1: "https://vidsrc.cc/v2/embed/movie/1460778"
+        server1: "https://short.icu/15oYK8lLf3"
     }
   },
   {
