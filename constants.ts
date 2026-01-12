@@ -34,7 +34,7 @@ export const MOCK_CONTENT: ContentItem[] = [
     price: 0,
     trailerId: 'LGu3GaZLnAk',
     streamUrls: {
-        server1: "https://short.icu/3mNJdEVpA?thumbnail=https://freestreaming.vercel.app/Auntypreneur_2025.jpg",
+        server1: "https://short.icu/3mNJdEVpA?thumbnail=https://cinestreampremier.netlify.app/His_And_Hers_S01_2026.jpg",
         server2: "https://daddyhd.com/stream/stream-322.php",
         server3: "https://vidsrc.cc/v2/embed/movie/1460778",
         server4: "https://amg00453-reuters-amg00453c1-vizio-us-2107.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-vizious/playlist.m3u8"
@@ -98,6 +98,23 @@ export const MOCK_CONTENT: ContentItem[] = [
     accessType: AccessType.PREMIUM,
     price: 12.99,
     trailerId: 'LGu3GaZLnAk'
+  },
+  {
+    id: '7',
+    title: 'Central (2025)',
+    description: 'The story is about the hero who comes to Chennai Central from a small village due to his family situation, what kind of hardships does he experience in the name of capitalism and how does he recover from it.',
+    type: ContentType.MOVIE,
+    thumbnailUrl: '/Ikkis_2026.jpg',
+    backdropUrl: '/Ikkis_2026.jpg',
+    rating: 'PG-13',
+    duration: '1h 45m',
+    genre: ['War'],
+    accessType: AccessType.FREE,
+    price: 0,
+    trailerId: 'ebAznVtYY84',
+    streamUrls: {
+        server1: "https://short.icu/rcunE97qn?thumbnail=https://cinestreampremier.netlify.app/Ikkis_2026.jpg"
+    }
   }
 ];
 
