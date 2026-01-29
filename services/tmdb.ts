@@ -350,9 +350,226 @@ export const UNIQUE_TV_LIVE: MediaItem[] = [
     overview:
       "Live documentary channel featuring nature, science, and history content.",
   },
+  {
+    id: "bbc-earth-channel",
+    title: "BBC Earth Channel",
+    poster_path: "https://yt3.googleusercontent.com/EsHioubXC-qfNdbHyThN7rDTF7rfTzhl5A5u4hHuUAzslx9jgwtxl_2TN4RFqt3hA1jEwAGVgg=s900-c-k-c0x00ffffff-no-rj",
+    backdrop_path: "https://yt3.googleusercontent.com/EsHioubXC-qfNdbHyThN7rDTF7rfTzhl5A5u4hHuUAzslx9jgwtxl_2TN4RFqt3hA1jEwAGVgg=s900-c-k-c0x00ffffff-no-rj",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["BBC Earth", "Educational", "Live"],
+    streams: {
+      "Server 1": "https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8"
+    },
+    overview:
+      "Live documentary channel featuring nature, science, and history content.",
+  },
+  {
+    id: "awe-channel",
+    title: "AWE Channel",
+    poster_path: "https://image.roku.com/developer_channels/prod/72cd4b2a026d9d68fadaae3b12227b2425bf28400a9fd8e679088d3b49c460d4.png",
+    backdrop_path: "https://image.roku.com/developer_channels/prod/72cd4b2a026d9d68fadaae3b12227b2425bf28400a9fd8e679088d3b49c460d4.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["BBC Earth", "Educational", "Live"],
+    streams: {
+      "Server 1": "https://a-cdn.klowdtv.com/live1/awe_720p/chunks.m3u8"
+    },
+    overview:
+      "Live documentary channel featuring nature, science, and history content.",
+  },
+  {
+    id: "law-and-crime-channel",
+    title: "Law and Crime Channel",
+    poster_path: "https://yt3.googleusercontent.com/CRP3YudPa55QypbDnIvuh3erLZTsn2HK8ESR-2fJFFiLJVf7US2CKQELCKK_UowmHA3wCjAdxg=s900-c-k-c0x00ffffff-no-rj",
+    backdrop_path: "https://yt3.googleusercontent.com/CRP3YudPa55QypbDnIvuh3erLZTsn2HK8ESR-2fJFFiLJVf7US2CKQELCKK_UowmHA3wCjAdxg=s900-c-k-c0x00ffffff-no-rj",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Law and Crime", "Educational", "Live"],
+    streams: {
+      "Server 1": "https://a-cdn.klowdtv.com/live3/law_720p/playlist.m3u8"
+    },
+    overview:
+      "Live documentary channel featuring nature, science, and history content.",
+  },
+{
+    id: "crime-investigation-channel",
+    title: "Crime + Investigation Channel",
+    poster_path: "https://yt3.googleusercontent.com/uiaSRk4UcUkLFd4DA7n8cSn5gzSVvsEP66ML3AeZ6DBiHsgUjXBGWUnUQkudtYFO-_U4sFYp=s900-c-k-c0x00ffffff-no-rj",
+    backdrop_path: "https://yt3.googleusercontent.com/uiaSRk4UcUkLFd4DA7n8cSn5gzSVvsEP66ML3AeZ6DBiHsgUjXBGWUnUQkudtYFO-_U4sFYp=s900-c-k-c0x00ffffff-no-rj",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Crime + Investigation", "Educational", "Live"],
+    streams: {
+      "Server 1": "https://fl31.moveonjoy.com/Crime_and_Investigation_Network/tracks-v1a1/mono.ts.m3u8"
+    },
+    overview:
+      "Live documentary channel featuring nature, science, and history content.",
+  },
+{
+    id: "true-crime-now-channel",
+    title: "True Crime Now Channel",
+    poster_path: "https://yt3.googleusercontent.com/Dp75Xd-JEYbuhNgko_0cqXyRCP30hIHyUiA-b2v0kyej0FhDhXwuZntgltR20qZ6owDr714C=s900-c-k-c0x00ffffff-no-rj",
+    backdrop_path: "https://yt3.googleusercontent.com/Dp75Xd-JEYbuhNgko_0cqXyRCP30hIHyUiA-b2v0kyej0FhDhXwuZntgltR20qZ6owDr714C=s900-c-k-c0x00ffffff-no-rj",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["True Crime Now", "Educational", "Live"],
+    streams: {
+      "Server 1": "https://amg00376-magellan-amg00376c12-samsung-au-1725.playouts.now.amagi.tv/ts-us-w2-n1/playlist/amg00376-magellantv-truecrimenowaunzin-samsungau/cb433e4f7b7b6fdccb993e6cd3f715a0d1076a8b5d32d03765f95cb52abc4013dce0ad92f24ef1684c8778873f5e32161e77b57dce7d01d9de71b8366d2211709188fa7ddd800278f298537f4de6286508ba1110d3224d218fa95223ad0998554953e400655372aab80af6294bd5f352c92074deb2dc653d635a419f435df5c30ff5aea3045add6fa6af1f4e873b47e5864498861bbb9d82539b469b77f0429d8fa2d886129f85c46aff53b330080b7224ccb246f9b1353771070b43fe441b047360e8aa87fb4a7cb5534248fdecb9c70f9d3deff9e805fd55c16db6409624822b8b04a2f347a3acc1bf08216be1ac5f10a4651e04ca7b1713c4fec8212c26674439bc7b594acc7fd1212a77b3f5c21785c41aac7b42efbb441222c99d499ad2e7cdbff0c57d952bcec8e38b7d6c7a235552c80df9da5ad2278b2cf38e0b770804048c8a45c883ee5b32494692cf0b874455ea8dcbcbf4260fe74c571ae469d25e454bc9376773ac6dda922e63842345d46169b5087bd00cacf81ff4a1daf70f74e08d900cac399dc060b8c10ba769334e11f3a37c2d22624990bf36436003802f82f4c5ee7005059687eef6d25c3502795a123b82ece37f8c9d824e3913d258326f641a75c45136087eace4ab482d8153dd9acf43dd2308337c976c284a/25/1920x1080_5500000/index.m3u8"
+    },
+    overview:
+      "Live documentary channel featuring nature, science, and history content.",
+  },
+  {
+    id: "investigation-discovery-channel",
+    title: "Investigation Discovery Channel",
+    poster_path: "https://variety.com/wp-content/uploads/2014/07/investigation-discovery-logo.jpg?w=1000&h=563&crop=1",
+    backdrop_path: "https://variety.com/wp-content/uploads/2014/07/investigation-discovery-logo.jpg?w=1000&h=563&crop=1",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Investigation Discovery", "Educational", "Live"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-324.php",
+    },
+    overview:
+      "Live documentary channel featuring nature, science, and history content.",
+  },
 ];
 // 15 UNIQUE MOVIES (ALL FROM TMDB)
 export const UNIQUE_MOVIES: MediaItem[] = [
+ {
+    id: "1112564",
+    title: "Vaa Vaathiyaar (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/47uIUf9KCfDzxQXixw8lrvYl8C8.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/qPNIwdR3y965KMsiweyuXdjDRXR.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Comedy ", "Drama", "Romance"],
+    streams: {
+      "Server 1":
+        "https://short.icu/Dzw1i6pcO?thumbnail=https://media.themoviedb.org/t/p/w780/qPNIwdR3y965KMsiweyuXdjDRXR.jpg",
+      "Server 2": "https://byseqekaho.com/e/80ishvgy6dmt",
+       "Server 3 - HINDI":
+        "https://short.icu/xIULE72j87?thumbnail=https://media.themoviedb.org/t/p/w780/qPNIwdR3y965KMsiweyuXdjDRXR.jpg",
+      "Server 4 - HINDI": "https://byseqekaho.com/e/p6tgekufv9cb",
+    },
+    overview:
+      "After being raised as the reincarnation of a famous actor, a man finds himself clashing with his grandfather's expectations of him.",
+  },
+  {
+    id: "1168190",
+    title: "The Wrecking Crew (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/gbVwHl4YPSq6BcC92TQpe7qUTh6.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Crime ", "Action", "Mystery"],
+    streams: {
+      "Server 1": "https://xprime.today/watch/1168190",
+      "Server 2": "https://cinemaos.tech/player/1168190",
+      "Server 3":
+        "https://zxcstream.xyz/player/movie/1168190/english?autoplay=false&back=true&server=0",
+      "Server 4 - HINDI":
+        "https://short.icu/fhssp61ba?thumbnail=https://media.themoviedb.org/t/p/w780/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
+      "Server 5 - HINDI": "https://byseqekaho.com/e/u5zmr36q8vog",
+      "Server 4 - TAMIL":
+        "https://short.icu/oVB40tLFR?thumbnail=https://media.themoviedb.org/t/p/w780/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
+      "Server 4 - KANNADA":
+        "https://short.icu/7S1E2a4bT?thumbnail=https://media.themoviedb.org/t/p/w780/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
+      "Server 6": "https://www.cinezo.net/watch/movie/1168190",
+      "Server 7": "https://vidsrc-embed.ru/embed/movie/1168190",
+      "Server 8": "https://api.cinezo.net/embed/tmdb-movie-1168190",
+    },
+    overview:
+      "Estranged half-brothers Jonny and James reunite after their father's mysterious death. As they search for the truth, buried secrets reveal a conspiracy threatening to tear their family apart.",
+  },
+  {
+    id: "1552952",
+    title: "Dhraupathi 2 (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/vojJemS5USdagshMLWS8JyrU8x6.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/vojJemS5USdagshMLWS8JyrU8x6.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Action ", "Drama", "History"],
+    streams: {
+      "Server 1":
+        "https://short.icu/11VUo0mkc?thumbnail=https://media.themoviedb.org/t/p/w780/vojJemS5USdagshMLWS8JyrU8x6.jpg",
+      "Server 2": "https://byseqekaho.com/e/q96pfror03po",
+    },
+    overview:
+      " 14th century AD, people were suffering from the brutality of the Madurai Sultanate and the Delhi Sultan. The Hoysala Emperor Vallalar III protected his empire and people with diplomacy. The sacrifice and betrayal of some changed the course of a kingdom. Insidious interventions disrupt the lives of people and the stability of the state.",
+  },
+  {
+    id: "1552952",
+    title: "Jockey (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/69zi48P9NIwPq7qdssxQ8qqbBNG.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/69zi48P9NIwPq7qdssxQ8qqbBNG.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Action ", "Drama", "Thriller"],
+    streams: {
+      "Server 1":
+        "https://short.icu/8W2HhRv30?thumbnail=https://media.themoviedb.org/t/p/w780/69zi48P9NIwPq7qdssxQ8qqbBNG.jpg",
+      "Server 2": "https://byseqekaho.com/e/a1p51n0oaksv",
+    },
+    overview:
+      "We don't have an overview translated in English. Help us expand our database by adding one.",
+  },
+  {
+    id: "1613346",
+    title: "Landlord (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/l3NGOzBnchp957poN8mBoZuWVHX.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/irXzev38Yf3UJ25PXtsnFg6KVQC.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Action ", "Drama", "Thriller"],
+    streams: {
+      "Server 1": "https://xprime.today/watch/1613346",
+      "Server 2": "https://cinemaos.tech/player/1613346",
+      "Server 3":
+        "https://zxcstream.xyz/player/movie/1613346/kannada?autoplay=false&back=true&server=0",
+      "Server 4":
+        "https://short.icu/OHi7E2c2Q?thumbnail=https://media.themoviedb.org/t/p/w780/irXzev38Yf3UJ25PXtsnFg6KVQC.jpg",
+      "Server 5": "https://byseqekaho.com/e/4dsgif4rh5lc",
+      "Server 6": "https://www.cinezo.net/watch/movie/1613346",
+      "Server 7": "https://vidsrc-embed.ru/embed/movie/1613346",
+      "Server 8": "https://api.cinezo.net/embed/tmdb-movie-1613346",
+    },
+    overview:
+      "In a village crushed under a brutal landlord's rule, fear silences the poor, and justice is denied. When a young woman constable challenges the system and an innocent family is burnt alive, outrage erupts into a violent uprising. What follows is a costly fight to reclaim dignity, justice, and the power of the Constitution.",
+  },
   {
     id: "1236153",
     title: "Mercy (2026)",
@@ -1175,6 +1392,31 @@ export const UNIQUE_MOVIES: MediaItem[] = [
 
 // 15 UNIQUE TV SHOWS (ALL FROM TMDB)
 export const UNIQUE_TV_SHOWS: MediaItem[] = [
+  {
+    id: "254071",
+    title: "Wonder Man S01 (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/3xdtP9D78ZFFBwIBXf3XWWQiqMB.jpg",
+    release_date: "2026-01-08",
+    vote_average: 7.2,
+    duration: "45m",
+    media_type: 'tv',
+    streams: {
+      "Server 1":
+        "https://zxcstream.xyz/player/tv/198178/s=1/e=1/english?autoplay=false&back=true&server=0",
+      "Server 2": "https://xprime.today/watch/198178/1/1",
+      "Server 3 ": "https://api.cinezo.net/embed/tmdb-tv-198178/1/1",
+      "Server 4 ": "https://www.cinezo.net/watch/tv/198178?season=1&episode=1",
+      "Server 5 - HINDI":
+        "https://short.icu/Sl7KwC5M7?thumbnail=https://media.themoviedb.org/t/p/w780/3xdtP9D78ZFFBwIBXf3XWWQiqMB.jpg",
+       "Server 6 - HINDI": "https://byseqekaho.com/e/jm9h9ts4zkvl",   
+    },
+    genres: ["Comedy", "Drama", "Thriller"],
+    overview:
+      "Simon and Trevor, two actors at opposite ends of their careers, chase life-changing roles.",
+  },
   {
     id: "254071",
     title: "Steal S01 (2026)",
