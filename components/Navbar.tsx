@@ -85,7 +85,7 @@ const Navbar: React.FC = () => {
             
             {/* Download APK Button */}
             <a
-                href='https://median.co/share/kremmkb'
+                href='https://median.co/share/eenblwb'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hidden lg:flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-3 lg:px-4 py-2 rounded-lg transition-all focus:outline-none focus:ring-2 focus:ring-green-400 shadow-lg hover:shadow-green-500/20 font-bold text-xs uppercase tracking-wide'
@@ -172,7 +172,7 @@ const Navbar: React.FC = () => {
             
             {/* Mobile Download APK Link */}
              <a
-                href='https://median.co/share/kremmkb'
+                href='https://median.co/share/eenblwb'
                 target='_blank'
                 rel='noopener noreferrer'
                 onClick={() => setIsOpen(false)}
