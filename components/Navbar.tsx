@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
           <div className="flex-shrink-0 flex items-center gap-2 z-50">
             <Link to="/" onClick={() => setIsOpen(false)} className="flex flex-col group">
                 <div className="flex items-center gap-1">
-                    <span className="text-miraj-gold font-extrabold text-2xl tracking-widest leading-none group-hover:text-white transition-colors">UWATCHFREE</span>
+                    <span className="text-miraj-gold font-extrabold text-2xl tracking-widest leading-none group-hover:text-white transition-colors">UWATCHFREE™</span>
                 </div>
                 <span className="text-gray-400 text-[9px] tracking-[0.4em] font-medium group-hover:text-miraj-gold transition-colors text-center">STREAM</span>
             </Link>
@@ -85,7 +85,7 @@ const Navbar: React.FC = () => {
             
             {/* Download APK Button */}
             <a
-                href='https://median.co/share/eenblwb'
+                href='https://median.co/share/xlrdylb'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hidden lg:flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-3 lg:px-4 py-2 rounded-lg transition-all focus:outline-none focus:ring-2 focus:ring-green-400 shadow-lg hover:shadow-green-500/20 font-bold text-xs uppercase tracking-wide'
@@ -172,7 +172,7 @@ const Navbar: React.FC = () => {
             
             {/* Mobile Download APK Link */}
              <a
-                href='https://median.co/share/eenblwb'
+                href='https://median.co/share/xlrdylb'
                 target='_blank'
                 rel='noopener noreferrer'
                 onClick={() => setIsOpen(false)}
