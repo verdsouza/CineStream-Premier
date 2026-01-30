@@ -389,7 +389,7 @@ export const UNIQUE_TV_LIVE: MediaItem[] = [
   {
     id: "law-and-crime-channel",
     title: "Law and Crime Channel",
-    poster_path: "https://yt3.googleusercontent.com/CRP3YudPa55QypbDnIvuh3erLZTsn2HK8ESR-2fJFFiLJVf7US2CKQELCKK_UowmHA3wCjAdxg=s900-c-k-c0x00ffffff-no-rj",
+    poster_path: "https://yt3.googleusercontent .com/CRP3YudPa55QypbDnIvuh3erLZTsn2HK8ESR-2fJFFiLJVf7US2CKQELCKK_UowmHA3wCjAdxg=s900-c-k-c0x00ffffff-no-rj",
     backdrop_path: "https://yt3.googleusercontent.com/CRP3YudPa55QypbDnIvuh3erLZTsn2HK8ESR-2fJFFiLJVf7US2CKQELCKK_UowmHA3wCjAdxg=s900-c-k-c0x00ffffff-no-rj",
     release_date: "2024-01-20",
     vote_average: 8.4,
@@ -466,11 +466,423 @@ export const UNIQUE_TV_LIVE: MediaItem[] = [
     overview:
       "Live documentary channel featuring nature, science, and history content.",
   },  
-
+{
+    id: "adult-channel-01",
+    title: "Adult Channel 01",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-501.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-02",
+    title: "Adult Channel 02",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-502.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-03",
+    title: "Adult Channel 03",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-503.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-04",
+    title: "Adult Channel 04",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-504.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-05",
+    title: "Adult Channel 05",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-505.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-06",
+    title: "Adult Channel 06",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-506.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-07",
+    title: "Adult Channel 07",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-507.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-08",
+    title: "Adult Channel 08",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-508.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-09",
+    title: "Adult Channel 09",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-509.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-10",
+    title: "Adult Channel 10",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-510.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-11",
+    title: "Adult Channel 11",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-511.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-12",
+    title: "Adult Channel 12",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-512.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-13",
+    title: "Adult Channel 13",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-513.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-14",
+    title: "Adult Channel 14",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-514.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-15",
+    title: "Adult Channel 15",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-515.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-16",
+    title: "Adult Channel 16",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-516.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-17",
+    title: "Adult Channel 17",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-517.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-18",
+    title: "Adult Channel 18",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-518.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-19",
+    title: "Adult Channel 19",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-519.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  {
+    id: "adult-channel-20",
+    title: "Adult Channel 20",
+    poster_path: "/public/18only.png",
+    backdrop_path: "/public/18only.png",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-520.php",
+    },
+    overview:
+      "Live Adult channel featuring Hot, sexy and Mind Blowing content.",
+  },
+  
 ];
 // 15 UNIQUE MOVIES (ALL FROM TMDB)
 export const UNIQUE_MOVIES: MediaItem[] = [
  {
+    id: "chemistry-part-2",
+    title: "Chemistry Part 2 (2026)",
+    poster_path:
+      "https://m.media-amazon.com/images/M/MV5BYzBiMWY2ZWEtYTNjOC00ZTg0LWJlMGQtODU1N2UwYWM3MDAyXkEyXkFqcGc@._V1_.jpg",
+    backdrop_path:
+      "https://media-files.atrangii.in/media-metadata/6979de0ef60fc20caae469ce",
+    release_date: "2026-01-26",
+    vote_average: 6.2,
+    duration: "1h 19m",
+    media_type: 'movie',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+      "Server 1": "https://short.icu/QYmidACiu?thumbnail=https://media-files.atrangii.in/media-metadata/6979de0ef60fc20caae469ce",
+      "Server 2": "https://byseqekaho.com/e/9a650rp8vdaa",
+      },
+    overview:
+      "When a reluctant student goes to study Chemistry from an enigmatic, isolated teacher, her attraction slowly overpowers his reluctance. A forbidden chemistry builds, threatening to change lives forever.",
+  },
+  {
+    id: "generation-gap-part-2",
+    title: "Generation Gap Part 2 (2026)",
+    poster_path:
+      "https://m.media-amazon.com/images/M/MV5BMGFhYWQ3YjktNzg3OC00NmJlLTg4NWQtMzcyYWIwNjNkYTIwXkEyXkFqcGc@._V1_.jpg",
+    backdrop_path:
+      "https://i.ytimg.com/vi/ID1smTZldw0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB3JVPV9kENRBn5u8fWkxQdl4K0_w",
+    release_date: "2026-01-26",
+    vote_average: 6.2,
+    duration: "1h 19m",
+    media_type: 'movie',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+      "Server 1": "https://short.icu/nzkD33Ujr?thumbnail=https://img.youtube.com/vi/ID1smTZldw0/maxresdefault.jpg",
+      "Server 2": "https://byseqekaho.com/e/w0nud4ssbmbt",
+      },
+    overview:
+      "A steamy affair between Mrs. Poonam and her nephew (Vipin) begins to develop a gap when they both have different expectations from each other.",
+  },
+  {
+    id: "786567",
+    title: "Mardaani 3 (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/jLo8qcDOw9CD1COzMLBouOqHtqX.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/q0aIpg6hiM9PafhGUknEPDBA6bW.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Crime ", "Action", "Mystery"],
+    streams: {
+      "Server 1": "https://xprime.today/watch/1339876-3",
+      "Server 2": "https://cinemaos.tech/player/1339876-3",
+      "Server 3":
+        "https://zxcstream.xyz/player/movie/1339876-3/hindi?autoplay=false&back=true&server=0",
+      "Server 4 - MAIN":
+        "https://short.icu/LmIsiliv6?thumbnail=https://media.themoviedb.org/t/p/w780/q0aIpg6hiM9PafhGUknEPDBA6bW.jpg",
+      "Server 5": "https://byseqekaho.com/e/8ekaiu3dgz0r",
+      "Server 6": "https://www.cinezo.net/watch/movie/1339876-3",
+      "Server 7": "https://vidsrc-embed.ru/embed/movie/1339876-3",
+      "Server 8": "https://api.cinezo.net/embed/tmdb-movie-1339876-3",
+    },
+    overview:
+      "Officer Shivani Shivaji Roy returns to hunt down those behind the disappearance of young girls, risking everything to bring them back alive.",
+  },
+  {
+    id: "786567",
+    title: "Gandhi Talks (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/p4iQT3s97T3gQOLhTj0UplzYMOj.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/4Cqad6ZpWJRhBumGE1QwHs9pVuB.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Drama ", "Silence", "Mystery"],
+    streams: {
+      "Server 1": "https://xprime.today/watch/786567",
+      "Server 2": "https://cinemaos.tech/player/786567",
+      "Server 3":
+        "https://zxcstream.xyz/player/movie/786567/english?autoplay=false&back=true&server=0",
+      "Server 4 - MAIN":
+        "https://short.icu/PhuS5WVOq?thumbnail=https://media.themoviedb.org/t/p/w780/4Cqad6ZpWJRhBumGE1QwHs9pVuB.jpg",
+      "Server 5": "https://byseqekaho.com/e/oi0zc05mbgjt",
+      "Server 6": "https://www.cinezo.net/watch/movie/786567",
+      "Server 7": "https://vidsrc-embed.ru/embed/movie/786567",
+      "Server 8": "https://api.cinezo.net/embed/tmdb-movie-786567",
+    },
+    overview:
+      "A silent black comedy, about the monetary needs of a character & how it impacts the others. A young, unemployed graduate Mahadev’s struggle to land a job through any means possible and crosses paths with a businessman and petty thief. A subject wherein silence speaks much louder than words. Although a work of fiction by the writer, all the characters in the film are sketched out to seem very real and relatable ensuring an enriching journey as well a laugh riot as the cat and mouse guffaws amongst them unfold. Gandhi Talks aims at telling a story by switching off the device of dialogue, which is not only scary but also interesting and challenging.",
+  },
+  {
     id: "1112564",
     title: "Vaa Vaathiyaar (2026)",
     poster_path:
