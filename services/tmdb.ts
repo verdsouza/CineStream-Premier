@@ -9,7 +9,7 @@ const BACKDROP_BASE = "https://image.tmdb.org/t/p/original";
 // These times are fixed and will not change on page refresh
 const getFixedMatchTime = (hoursAdd: number, minutesSet: number = 0) => {
   // Return a static base time: Jan 29, 2026 08:00 UTC + offset
-  const baseTime = new Date("2026-01-29T08:00:00.000Z");
+  const baseTime = new Date("2026-01-30T08:00:00.000Z");
   baseTime.setHours(baseTime.getHours() + hoursAdd);
   baseTime.setMinutes(minutesSet);
   return baseTime.toISOString();
@@ -17,7 +17,7 @@ const getFixedMatchTime = (hoursAdd: number, minutesSet: number = 0) => {
 
 // Helper for Specific UTC Time (static, no runtime calculation)
 const getSpecificTime = (hour: number, minute: number = 0) => {
-    const date = new Date("2026-01-29T00:00:00.000Z");
+    const date = new Date("2026-01-30T00:00:00.000Z");
     date.setUTCHours(hour, minute, 0, 0);
     return date.toISOString();
 }
@@ -25,50 +25,48 @@ const getSpecificTime = (hour: number, minute: number = 0) => {
 export const UNIQUE_SPORTS: MediaItem[] = [
   {
     id: "womens-premier-league",
-    title: "Women's Premier League : Royal Challengers Bangalore W vs UP Warriorz W",
-    poster_path: "https://femalecricket.com/wp-content/uploads/2026/01/WPL_Match-5-Royal-Challengers-Bengaluru-Women-vs-UP-Warriorz-Women-1200x788.jpg",
-    backdrop_path: "https://femalecricket.com/wp-content/uploads/2026/01/WPL_Match-5-Royal-Challengers-Bengaluru-Women-vs-UP-Warriorz-Women-1200x788.jpg",
+    title: "Women's Premier League : Gujarat Giants W vs Mumbai Indians W",
+    poster_path: "https://img.cricketnmore.com/uploads/2026/01/gujarat-giants-vs-mumbai-indians-match-19-wpl-2026-who-will-win-today-gg-w-vs-mi-w-match-mdl.jpg",
+    backdrop_path: "https://img.cricketnmore.com/uploads/2026/01/gujarat-giants-vs-mumbai-indians-match-19-wpl-2026-who-will-win-today-gg-w-vs-mi-w-match-mdl.jpg",
     // Fixed Time: Current Hour - 1 (e.g. if now is 14:20, this was 13:00). Ensures it is LIVE.
-    release_date: getFixedMatchTime(7, 30), 
+    release_date: getFixedMatchTime(6, 30), 
     vote_average: 9.2,
     duration: "Live",
     media_type: 'sports',
     genres: ["Cricket", "Women's Premier League"],
     streams: {
-      "Server 1 (Main)": "https://embedsports.top/embed/charlie/up-warriorz-vs-royal-challengers-bengaluru-1629480816/1",
-      "Server 2 (Backup)": "https://daddyhd.com/stream/stream-598.php",
-      "Server 3 (Backup)": "https://daddyhd.com/stream/stream-591.php",
+      "Server 1 (Main)": "https://embedsports.top/embed/charlie/gujarat-giants-vs-mumbai-indians-1629480889/1",
+      "Server 2 (Backup)": "https://daddyhd.com/stream/stream-346.php",
+      "Server 3 (Backup)": "https://daddyhd.com/stream/stream-590.php",
       "Server 4 (Backup)": "https://daddyhd.com/stream/stream-417.php",
       "Server 5 (Backup)": "https://daddyhd.com/stream/stream-36.php",
     },
-    overview: "Live coverage of the Women's Premier League : RCB (W) vs UPW (W). Title decider match.",
+    overview: "Live coverage of the Women's Premier League Gujarat Giants vs Mumbai Indians Match 19, WPL 2026, Who will win today GG-W vs MI-W match?",
   },
   {
     id: "twenty20",
-    title: "Twenty20 : South Africa vs West Indie",
-    poster_path: "https://www.icccricketschedule.com/_image?href=https%3A%2F%2Fimg.icccricketschedule.com%2Fuploads%2Fimages%2F202601%2Fsouth-africa-vs-west-indies-2026_1200x675_3e5557.jpg&w=1200&h=675&q=75&f=webp",
-    backdrop_path: "https://www.icccricketschedule.com/_image?href=https%3A%2F%2Fimg.icccricketschedule.com%2Fuploads%2Fimages%2F202601%2Fsouth-africa-vs-west-indies-2026_1200x675_3e5557.jpg&w=1200&h=675&q=75&f=webp",
+    title: "England tour of Sri Lanka 2026 | Twenty20 : England vs Sri Lanka",
+    poster_path: "https://images.slivcdn.com/videoasset_images/manage_file/1000013839/1768923753324600_SL_vs_EG_2026_GOB_Landscape_Thumb.jpg?w=1000&q=low",
+    backdrop_path: "https://images.slivcdn.com/videoasset_images/manage_file/1000013839/1768923753324600_SL_vs_EG_2026_GOB_Landscape_Thumb.jpg?w=1000&q=low",
     // Fixed Time: Current Hour + 1, :30 minutes. (e.g. if now is 14:20, this is 15:30 fixed).
-    release_date: getFixedMatchTime(9, 30),
+    release_date: getFixedMatchTime(6, 0),
     vote_average: 9.5,
     duration: "Live",
     media_type: 'sports',
     genres: ["Cricket", "Twenty20"],
     streams: {
-      "Server 1 (Main)": "https://embedsports.top/embed/charlie/south-africa-vs-west-indies-1629480817/1",
-      "Server 2 (Backup)": "https://daddyhd.com/stream/stream-346.php",
-      "Server 3 (Backup)": "https://daddyhd.com/stream/stream-65.php",
-      "Server 4 (Backup)": "https://daddyhd.com/stream/stream-38.php",
-      "Server 5 (Backup)": "https://daddyhd.com/stream/stream-368.php",
+      "Server 1 (Main)": "https://embedsports.top/embed/charlie/sri-lanka-vs-england-1629480887/1",
+      "Server 2 (Backup)": "https://daddyhd.com/stream/stream-31.php",
+      "Server 3 (Backup)": "https://daddyhd.com/stream/stream-368.php",
       "Server 6 (Backup)": "https://daddyhd.com/stream/stream-412.php",   
     },
-    overview: "T20 Live. Twenty20 : South Africa vs West Indie",
+    overview: "England tour of Sri Lanka 2026 | Twenty20 : England vs Sri Lanka",
   },
   {
-    id: "farmers-insurance-open",
-    title: "PGA Tour Farmers Insurance Open (2026)",
-    poster_path: "https://espnpressroom.com/us/files/2026/01/Farmers-Graphic-2.png",
-    backdrop_path: "https://espnpressroom.com/us/files/2026/01/Farmers-Graphic-2.png",
+    id: "australian-open-semi-final",
+    title: "Australian Open Semi-Final (2026)",
+    poster_path: "https://images.slivcdn.com/videoasset_images/manage_file/1000013951/1769076305688640_AO2026_GOB_Landscape_Thumb_SP_2.jpg?w=1000&q=low",
+    backdrop_path: "https://images.slivcdn.com/videoasset_images/manage_file/1000013951/1769076305688640_AO2026_GOB_Landscape_Thumb_SP_2.jpg?w=1000&q=low",
     // Fixed Time: Current Hour + 4 hours.
     release_date: getFixedMatchTime(9, 30),
     vote_average: 8.9,
@@ -85,71 +83,77 @@ export const UNIQUE_SPORTS: MediaItem[] = [
     overview: "Watch Live Golf: PGA Tour Farmers Insurance Open",
   },
   {
-    id: "match-early-test",
-    title: "TNA iMPACT! Wrestling: Early Test Match",
-    poster_path: "https://hips.hearstapps.com/hmg-prod/images/tna-impact-wrestling-6536da30b4f27.jpeg?resize=980:*",
-    backdrop_path: "https://hips.hearstapps.com/hmg-prod/images/tna-impact-wrestling-6536da30b4f27.jpeg?resize=980:*",
-    // Fixed Time: Current Hour + 8 hours.
-    release_date: getFixedMatchTime(18, 30),
-    vote_average: 8.7,
+    id: "farmers-insurance-open",
+    title: "PGA Tour Farmers Insurance Open (2026)",
+    poster_path: "https://espnpressroom.com/us/files/2026/01/Farmers-Graphic-2.png",
+    backdrop_path: "https://espnpressroom.com/us/files/2026/01/Farmers-Graphic-2.png",
+    // Fixed Time: Current Hour + 4 hours.
+    release_date: getFixedMatchTime(4, 0),
+    vote_average: 8.9,
     duration: "Live",
     media_type: 'sports',
-    genres: ["Fighting", "TNA Wrestling"],
+    genres: ["Golf", "PGA Tour"],
     streams: {
-      "Server 1 (Main)": "https://embedsports.top/embed/admin/ppv-tna-impact/1",
-      "Server 2 (Backup)": "https://embedsports.top/embed/admin/ppv-tna-impact/2",
-      "Server 3 (Backup)": "https://daddyhd.com/stream/stream-303.php",
-      "Server 4 (Backup)": "https://daddyhd.com/stream/stream-409.php",
+      "Server 1 (Main)": "https://embedsports.top/embed/charlie/farmers-insurance-open-featured-holes-3-8-11-and-16-first-round-1629480833/1",
+      "Server 2 (Backup)": "https://daddyhd.com/stream/stream-70.php",
+      "Server 3 (Backup)": "https://daddyhd.com/stream/stream-318.php",
+      "Server 4 (Backup)": "https://daddyhd.com/stream/stream-422.php",
+      "Server 5 (Backup)": "https://daddyhd.com/stream/stream-588.php",
     },
-    overview: "Live TNA Wrestling. Check TNA Wrestling schedule for more upcoming matches.",
+    overview: "Watch Live Golf: PGA Tour Farmers Insurance Open",
+  },
+  {
+    id: "wwe-friday-night-smackdown",
+    title: "WWE Friday Night SmackDown (2026)",
+    poster_path: "https://espnpressroom.com/us/files/2026/01/Farmers-Graphic-2.png",
+    backdrop_path: "https://espnpressroom.com/us/files/2026/01/Farmers-Graphic-2.png",
+    // Fixed Time: Current Hour + 4 hours.
+    release_date: getFixedMatchTime(10, 0),
+    vote_average: 8.9,
+    duration: "Live",
+    media_type: 'sports',
+    genres: ["Golf", "PGA Tour"],
+    streams: {
+      "Server 1 (Main)": "https://embedsports.top/embed/admin/ppv-wwe-friday-night-smackdown/1",
+      "Server 2 (Backup)": "https://embedsports.top/embed/admin/ppv-wwe-friday-night-smackdown/2",
+      "Server 3 (Backup)": "https://embedsports.top/embed/echo/wwe-friday-night-smackdown-wwe-009/1",
+      "Server 4 (Backup)": "https://embedsports.top/embed/echo/wwe-friday-night-smackdown-wwe-009/2",
+      "Server 5 (Backup)": "https://daddyhd.com/stream/stream-343.php",
+      "Server 6 (Backup)": "https://daddyhd.com/stream/stream-145.php",   
+    },
+    overview: "Watch WWE Friday Night SmackDown Live",
   },
   {
     id: "match-ended-1",
-    title: "Benfica vs Real Madrid - Key Moments - UEFA Champions League 2026",
-    poster_path: "https://www.aljazeera.com/wp-content/uploads/2026/01/2026-01-28T222717Z_126287702_UP1EM1S1PJ1XC_RTRMADP_3_SOCCER-CHAMPIONS-SLB-RMA-1769640390.jpg?resize=1920%2C1080",
-    backdrop_path: "https://www.aljazeera.com/wp-content/uploads/2026/01/2026-01-28T222717Z_126287702_UP1EM1S1PJ1XC_RTRMADP_3_SOCCER-CHAMPIONS-SLB-RMA-1769640390.jpg?resize=1920%2C1080",
+    title: "Pakistan vs Australia | Match 01 | T20I Series 2026 | Full Highlights",
+    poster_path: "https://img.youtube.com/vi/ajrYW7qbhmg/maxresdefault.jpg",
+    backdrop_path: "https://img.youtube.com/vi/ajrYW7qbhmg/maxresdefault.jpg",
     // Fixed Time: 24 hours ago exactly.
-    release_date: getFixedMatchTime(-4, 0),
+    release_date: getFixedMatchTime(-12, 0),
     vote_average: 9.0,
     duration: "Replay",
     media_type: 'sports',
-    genres: ["Soccer", "UEFA Champions"],
+    genres: ["Cricket", "T20I"],
     streams: {
-       "Server 1 (Highlights)": "https://www.youtube.com/embed/dRd-sNzUlJk?enablejsapi=1&autoplay=1&mute=1&loop=1&playlist=dRd-sNzUlJk",
+       "Server 1 (Highlights)": "https://www.youtube.com/embed/ajrYW7qbhmg?enablejsapi=1&autoplay=1&mute=1&loop=1&playlist=ajrYW7qbhmg",
     },
     overview: "Full Event Replay. Main card and prelims.",
   },
   {
     id: "match-ended-2",
-    title: "SPURS at ROCKETS | FULL GAME HIGHLIGHTS | January 28, 2026",
-    poster_path: "https://img.youtube.com/vi/KgNiXIRYgJ8/maxresdefault.jpg",
-    backdrop_path: "https://img.youtube.com/vi/KgNiXIRYgJ8/maxresdefault.jpg  ",
+    title: "Australian Open 2026 | Aryna Sabalenka vs Elina Svitolina | Full Highlights",
+    poster_path: "https://img.youtube.com/vi/tY5PBmtFb8w/maxresdefault.jpg",
+    backdrop_path: "https://img.youtube.com/vi/tY5PBmtFb8w/maxresdefault.jpg",
     // Fixed Time: 24 hours ago exactly.
-    release_date: getFixedMatchTime(-4, 0),
+    release_date: getFixedMatchTime(-16, 0),
     vote_average: 9.0,
     duration: "Replay",
     media_type: 'sports',
-    genres: ["Basketball", "NBA"],
+    genres: ["Tennis", "Australian Open"],
     streams: {
-       "Server 1 (Highlights)": "https://www.youtube.com/embed/KgNiXIRYgJ8?enablejsapi=1&autoplay=1&mute=1&loop=1&playlist=KgNiXIRYgJ8",
+       "Server 1 (Highlights)": "https://www.youtube.com/embed/tY5PBmtFb8w?enablejsapi=1&autoplay=1&mute=1&loop=1&playlist=tY5PBmtFb8w",
     },
-    overview: "Full Event Replay. Main card and prelims.",
-  },
-  {
-    id: "match-ended-3",
-    title: "BULLS at PACERS | FULL GAME HIGHLIGHTS | January 28, 2026",
-    poster_path: "https://img.youtube.com/vi/OVTaT_HAyos/maxresdefault.jpg",
-    backdrop_path: "https://img.youtube.com/vi/OVTaT_HAyos/maxresdefault.jpg",
-    // Fixed Time: 24 hours ago exactly.
-    release_date: getFixedMatchTime(-4, 0),
-    vote_average: 9.0,
-    duration: "Replay",
-    media_type: 'sports',
-    genres: ["Basketball", "NBA"],
-    streams: {
-       "Server 1 (Highlights)": "https://www.youtube.com/embed/OVTaT_HAyos?enablejsapi=1&autoplay=1&mute=1&loop=1&playlist=OVTaT_HAyos",
-    },
-    overview: "Full Event Replay. Main card and prelims.",
+    overview: "Full Event Replay. Australian Open 2026 | Aryna Sabalenka vs Elina Svitolina | Full Highlights",
   },
 ];
 
@@ -401,8 +405,8 @@ export const UNIQUE_TV_LIVE: MediaItem[] = [
 {
     id: "crime-investigation-channel",
     title: "Crime + Investigation Channel",
-    poster_path: "https://yt3.googleusercontent.com/uiaSRk4UcUkLFd4DA7n8cSn5gzSVvsEP66ML3AeZ6DBiHsgUjXBGWUnUQkudtYFO-_U4sFYp=s900-c-k-c0x00ffffff-no-rj",
-    backdrop_path: "https://yt3.googleusercontent.com/uiaSRk4UcUkLFd4DA7n8cSn5gzSVvsEP66ML3AeZ6DBiHsgUjXBGWUnUQkudtYFO-_U4sFYp=s900-c-k-c0x00ffffff-no-rj",
+    poster_path: "https://www.crimeandinvestigation.co.uk/themes/custom/crimeandinvestigation/images/social-cards/ci-homepage.jpg",
+    backdrop_path: "https://www.crimeandinvestigation.co.uk/themes/custom/crimeandinvestigation/images/social-cards/ci-homepage.jpg",
     release_date: "2024-01-20",
     vote_average: 8.4,
     duration: "24/7",
@@ -417,8 +421,8 @@ export const UNIQUE_TV_LIVE: MediaItem[] = [
 {
     id: "true-crime-now-channel",
     title: "True Crime Now Channel",
-    poster_path: "https://yt3.googleusercontent.com/Dp75Xd-JEYbuhNgko_0cqXyRCP30hIHyUiA-b2v0kyej0FhDhXwuZntgltR20qZ6owDr714C=s900-c-k-c0x00ffffff-no-rj",
-    backdrop_path: "https://yt3.googleusercontent.com/Dp75Xd-JEYbuhNgko_0cqXyRCP30hIHyUiA-b2v0kyej0FhDhXwuZntgltR20qZ6owDr714C=s900-c-k-c0x00ffffff-no-rj",
+    poster_path: "https://cdn.realscreen.com/wp/wp-content/uploads/2021/10/true-crime-now-logo-1.jpg",
+    backdrop_path: "https://cdn.realscreen.com/wp/wp-content/uploads/2021/10/true-crime-now-logo-1.jpg",
     release_date: "2024-01-20",
     vote_average: 8.4,
     duration: "24/7",
@@ -446,6 +450,23 @@ export const UNIQUE_TV_LIVE: MediaItem[] = [
     overview:
       "Live documentary channel featuring nature, science, and history content.",
   },
+  {
+    id: "amc-channel",
+    title: "AMC Channel",
+    poster_path: "https://play-lh.googleusercontent.com/g7K2KCxcNoOV4bgerqP5yDmRpBImqMGcV99Zvd9vYOQ-v6zDj9f_gyU0EaE5OM2yBrU=w600-h300-pc0xffffff-pd",
+    backdrop_path: "https://play-lh.googleusercontent.com/g7K2KCxcNoOV4bgerqP5yDmRpBImqMGcV99Zvd9vYOQ-v6zDj9f_gyU0EaE5OM2yBrU=w600-h300-pc0xffffff-pd",
+    release_date: "2024-01-20",
+    vote_average: 8.4,
+    duration: "24/7",
+    media_type: 'tv_live',
+    genres: ["Investigation Discovery", "Educational", "Live"],
+    streams: {
+    "Server 1": "https://daddyhd.com/stream/stream-303.php",
+    },
+    overview:
+      "Live documentary channel featuring nature, science, and history content.",
+  },  
+
 ];
 // 15 UNIQUE MOVIES (ALL FROM TMDB)
 export const UNIQUE_MOVIES: MediaItem[] = [
