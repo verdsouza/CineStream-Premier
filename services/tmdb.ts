@@ -791,6 +791,75 @@ export const UNIQUE_TV_LIVE: MediaItem[] = [
 // 15 UNIQUE MOVIES (ALL FROM TMDB)
 export const UNIQUE_MOVIES: MediaItem[] = [
  {
+    id: "840464",
+    title: "Greenland-2 Migration (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/dtPwBZjzqTaObjG4fKStRkBq1uu.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Adventure", "Thriller", "Mystery"],
+    streams: {
+      "Server 1": "https://stmix.io/e/SalwmX8W01k4B",
+      "Server 2": "https://cinemaos.tech/player/840464",
+      "Server 3 ": "https://xprime.today/watch/840464",
+      "Server 4": "https://www.cinezo.net/watch/movie/840464",
+      "Server 5": "https://vidsrc-embed.ru/embed/movie/840464",
+      "Server 6": "https://api.cinezo.net/embed/tmdb-movie-840464",
+    },
+    overview:
+      "Having found the safety of the Greenland bunker after the comet Clarke decimated the Earth, the Garrity family must now risk everything to embark on a perilous journey across the wasteland of Europe to find a new home.",
+  },
+  {
+    id: "1249508",
+    title: "Grizzly Night (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/3ppOwa6PEtGsIiDPdZHUbEqgIY7.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/i275mAQP4KhPtYUpMUgBGMmK4WN.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Horror", "Adventure", "Mystery"],
+    streams: {
+      "Server 1": "https://stmix.io/e/7GZi2cqHskcwn",
+      "Server 2": "https://cinemaos.tech/player/1249508",
+      "Server 3 ": "https://xprime.today/watch/1249508",
+      "Server 4": "https://www.cinezo.net/watch/movie/1249508",
+      "Server 5": "https://vidsrc-embed.ru/embed/movie/1249508",
+      "Server 6": "https://api.cinezo.net/embed/tmdb-movie-1249508",
+    },
+    overview:
+      "On August 12th, 1967, in Montana's Glacier National Park, the unthinkable happened: On the same night, nine miles apart, there were not one-but two-fatal grizzly bear attacks.",
+  },
+  {
+    id: "1234731",
+    title: "Anaconda (2025)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/qxMv3HwAB3XPuwNLMhVRg795Ktp.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Adventure ", "Comedy", "Mystery"],
+    streams: {
+      "Server 1": "https://xprime.today/watch/1234731",
+      "Server 2": "https://cinemaos.tech/player/1234731",
+      "Server 3 - Multi-Lang": "https://stmix.io/e/wSmdv3CDpCNml",
+      "Server 4": "https://www.cinezo.net/watch/movie/1234731",
+      "Server 5": "https://vidsrc-embed.ru/embed/movie/1234731",
+      "Server 6": "https://api.cinezo.net/embed/tmdb-movie-1234731",
+    },
+    overview:
+      "A group of friends facing mid-life crises head to the rainforest with the intention of remaking their favorite movie from their youth, only to find themselves in a fight for their lives against natural disasters, giant snakes and violent criminals",
+  },
+  {
     id: "chemistry-part-2",
     title: "Chemistry Part 2 (2026)",
     poster_path:
@@ -803,8 +872,9 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     media_type: 'movie',
     genres: ["Adult", "Romance", "Drama"],
     streams: {
-      "Server 1": "https://short.icu/QYmidACiu?thumbnail=https://media-files.atrangii.in/media-metadata/6979de0ef60fc20caae469ce",
-      "Server 2": "https://byseqekaho.com/e/9a650rp8vdaa",
+     "Server 1": "https://stmix.io/e/PNUePFxDwvjVx",
+      "Server 2": "https://short.icu/QYmidACiu?thumbnail=https://media-files.atrangii.in/media-metadata/6979de0ef60fc20caae469ce",
+      "Server 3": "https://byseqekaho.com/e/9a650rp8vdaa",
       },
     overview:
       "When a reluctant student goes to study Chemistry from an enigmatic, isolated teacher, her attraction slowly overpowers his reluctance. A forbidden chemistry builds, threatening to change lives forever.",
@@ -822,14 +892,15 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     media_type: 'movie',
     genres: ["Adult", "Romance", "Drama"],
     streams: {
-      "Server 1": "https://short.icu/nzkD33Ujr?thumbnail=https://img.youtube.com/vi/ID1smTZldw0/maxresdefault.jpg",
-      "Server 2": "https://byseqekaho.com/e/w0nud4ssbmbt",
+      "Server 1": "https://stmix.io/e/nKnly2xFa69Fs",
+      "Server 2": "https://short.icu/nzkD33Ujr?thumbnail=https://img.youtube.com/vi/ID1smTZldw0/maxresdefault.jpg",
+      "Server 3": "https://byseqekaho.com/e/w0nud4ssbmbt",
       },
     overview:
       "A steamy affair between Mrs. Poonam and her nephew (Vipin) begins to develop a gap when they both have different expectations from each other.",
   },
   {
-    id: "786567",
+    id: "1339876",
     title: "Mardaani 3 (2026)",
     poster_path:
       "https://image.tmdb.org/t/p/w500/jLo8qcDOw9CD1COzMLBouOqHtqX.jpg",
@@ -841,7 +912,7 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     media_type: 'movie',
     genres: ["Crime ", "Action", "Mystery"],
     streams: {
-      "Server 1": "https://xprime.today/watch/1339876-3",
+      "Server 1": "https://stmix.io/e/kYuQQzKDopYa",
       "Server 2": "https://cinemaos.tech/player/1339876-3",
       "Server 3":
         "https://zxcstream.xyz/player/movie/1339876-3/hindi?autoplay=false&back=true&server=0",
@@ -868,7 +939,7 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     media_type: 'movie',
     genres: ["Drama ", "Silence", "Mystery"],
     streams: {
-      "Server 1": "https://xprime.today/watch/786567",
+      "Server 1": "https://stmix.io/e/BbQpHGHdJKZGn",
       "Server 2": "https://cinemaos.tech/player/786567",
       "Server 3":
         "https://zxcstream.xyz/player/movie/786567/english?autoplay=false&back=true&server=0",
@@ -895,13 +966,9 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     media_type: 'movie',
     genres: ["Comedy ", "Drama", "Romance"],
     streams: {
-      "Server 1":
-        "https://short.icu/Dzw1i6pcO?thumbnail=https://media.themoviedb.org/t/p/w780/qPNIwdR3y965KMsiweyuXdjDRXR.jpg",
-      "Server 2": "https://byseqekaho.com/e/80ishvgy6dmt",
-       "Server 3 - HINDI":
-        "https://short.icu/xIULE72j87?thumbnail=https://media.themoviedb.org/t/p/w780/qPNIwdR3y965KMsiweyuXdjDRXR.jpg",
-      "Server 4 - HINDI": "https://byseqekaho.com/e/p6tgekufv9cb",
-    },
+      "Server 1- Multi-Lang":
+        "https://stmix.io/e/XvqZsVUzrTfYy",
+        },
     overview:
       "After being raised as the reincarnation of a famous actor, a man finds himself clashing with his grandfather's expectations of him.",
   },
@@ -920,21 +987,13 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     streams: {
       "Server 1": "https://xprime.today/watch/1168190",
       "Server 2": "https://cinemaos.tech/player/1168190",
-      "Server 3":
-        "https://zxcstream.xyz/player/movie/1168190/english?autoplay=false&back=true&server=0",
-      "Server 4 - HINDI":
-        "https://short.icu/fhssp61ba?thumbnail=https://media.themoviedb.org/t/p/w780/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
-      "Server 5 - HINDI": "https://byseqekaho.com/e/u5zmr36q8vog",
-      "Server 4 - TAMIL":
-        "https://short.icu/oVB40tLFR?thumbnail=https://media.themoviedb.org/t/p/w780/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
-      "Server 4 - KANNADA":
-        "https://short.icu/7S1E2a4bT?thumbnail=https://media.themoviedb.org/t/p/w780/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
-      "Server 6": "https://www.cinezo.net/watch/movie/1168190",
-      "Server 7": "https://vidsrc-embed.ru/embed/movie/1168190",
-      "Server 8": "https://api.cinezo.net/embed/tmdb-movie-1168190",
+      "Server 3 - Multi-Lang": "https://streamix.so/e/LOMcIVE2bYo9n",
+      "Server 4": "https://www.cinezo.net/watch/movie/1168190",
+      "Server 5": "https://vidsrc-embed.ru/embed/movie/1168190",
+      "Server 6": "https://api.cinezo.net/embed/tmdb-movie-1168190",
     },
     overview:
-      "Estranged half-brothers Jonny and James reunite after their father's mysterious death. As they search for the truth, buried secrets reveal a conspiracy threatening to tear their family apart.",
+      "Estranged half-brothers Jonny and James reunite after their father's mysterious death. As they search for the truth, buried secrets reveal a conspiracy threatening to tear their family apart. Multi language Available [Tam + Tel + Hin + Mal + Kan + Eng] Apply Settings",
   },
   {
     id: "1552952",
@@ -1175,16 +1234,14 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     media_type: 'movie',
     genres: ["Adult", "Romance", "Drama"],
     streams: {
-      "Server 1": "https://xprime.today/watch/1614077",
+      "Server 1": "https://stmix.io/e/KzdrsSXHjFgKS",
       "Server 2": "https://cinemaos.tech/player/1614077",
       "Server 3":
         "https://zxcstream.xyz/player/movie/1614077/tagalog?autoplay=false&back=true&server=0",
-      "Server 4":
-        "https://short.icu/agmoLHlhL?thumbnail=https://media.themoviedb.org/t/p/w780/hkgr0dHPdR7a5q60QiGqHGXNBVe.jpg",
+      "Server 4": "https://xprime.today/watch/1614077",
       "Server 5": "https://www.cinezo.net/watch/movie/1614077",
       "Server 6": "https://vidsrc-embed.ru/embed/movie/1614077",
-      "Server 7": "https://api.cinezo.net/embed/tmdb-movie-1614077",
-      "Server 8": "https://byseqekaho.com/e/ytxpdjdt2sqb",
+      "Server 7": "https://api.cinezo.net/embed/tmdb-movie-1614077",   
     },
     overview:
       "Lena and Mara are drawn into a secret affair that defies boundaries and threatens everything they’ve built. When Mara uncovers her groom’s betrayal, she finds solace in Lena, a newfound friend who soon becomes something more. As passion and secrecy collide, their choices endanger careers, fracture relationships, and lead to devastating consequences.",
@@ -1202,12 +1259,11 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     media_type: 'movie',
     genres: ["Adult", "Romance", "Drama"],
     streams: {
-      "Server 1": "https://xprime.today/watch/1555917",
+      "Server 1": "https://stmix.io/v/BA8XvvvsU7zmm",
       "Server 2": "https://cinemaos.tech/player/1555917",
       "Server 3":
         "https://zxcstream.xyz/player/movie/1555917/tagalog?autoplay=false&back=true&server=0",
-      "Server 4":
-        "https://short.icu/ZbqGc8QMt?thumbnail=https://media.themoviedb.org/t/p/w780/1JBTTWYIKWyb4JThbQqGyc5FgXB.jpg",
+      "Server 4": "https://xprime.today/watch/1555917",
       "Server 5": "https://www.cinezo.net/watch/movie/1555917",
       "Server 6": "https://vidsrc-embed.ru/embed/movie/1555917",
       "Server 7": "https://api.cinezo.net/embed/tmdb-movie-1555917",
@@ -1229,12 +1285,11 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     media_type: 'movie',
     genres: ["Adult", "Romance", "Drama"],
     streams: {
-      "Server 1": "https://xprime.today/watch/1597538",
+      "Server 1": "https://stmix.io/e/vAlUJTcd8elxH",
       "Server 2": "https://cinemaos.tech/player/1597538",
       "Server 3":
         "https://zxcstream.xyz/player/movie/1597538/tagalog?autoplay=false&back=true&server=0",
-      "Server 4":
-        "https://short.icu/gYE1rgiXE?thumbnail=https://media.themoviedb.org/t/p/w780/mkRGuXIrBETwQvzi3HqiogdL40R.jpg",
+      "Server 4": "https://xprime.today/watch/1597538",
       "Server 5": "https://www.cinezo.net/watch/movie/1597538",
       "Server 6": "https://vidsrc-embed.ru/embed/movie/1597538",
       "Server 7": "https://api.cinezo.net/embed/tmdb-movie-1597538",
@@ -1256,12 +1311,10 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     media_type: 'movie',
     genres: ["Adult", "Romance", "Drama"],
     streams: {
-      "Server 1": "https://xprime.today/watch/1612071",
+      "Server 1": "https://stmix.io/e/M9m0Jl0lnhqy",
       "Server 2": "https://cinemaos.tech/player/1612071",
-      "Server 3":
-        "https://zxcstream.xyz/player/movie/1612071/tagalog?autoplay=false&back=true&server=0",
-      "Server 4":
-        "https://short.icu/tQkMTCEon?thumbnail=https://media.themoviedb.org/t/p/w780/zaciqbV1bdUlbvrjUmPynXx9rdr.jpg",
+      "Server 3": "https://zxcstream.xyz/player/movie/1612071/tagalog?autoplay=false&back=true&server=0",
+      "Server 4": "https://xprime.today/watch/1612071",
       "Server 5": "https://www.cinezo.net/watch/movie/1612071",
       "Server 6": "https://vidsrc-embed.ru/embed/movie/1612071",
       "Server 7": "https://api.cinezo.net/embed/tmdb-movie-1612071",
@@ -1826,7 +1879,49 @@ export const UNIQUE_MOVIES: MediaItem[] = [
 // 15 UNIQUE TV SHOWS (ALL FROM TMDB)
 export const UNIQUE_TV_SHOWS: MediaItem[] = [
   {
-    id: "254071",
+    id: "249766",
+    title: "Daldal S01 (2025)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/wvAwkKeIs7bkb6EJAYRzpANhfxM.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/bd0usdz6dgmEE6HVhEhepR5r6MP.jpg",
+    release_date: "2025-01-08",
+    vote_average: 7.2,
+    duration: "45m",
+    media_type: 'tv',
+    streams: {
+      "Server 1": "https://stmix.io/e/4OtUU7kOtUK87",
+      "Server 2": "https://xprime.today/watch/249766/1/1",
+      },
+    genres: ["Drama", "Thriller", "Mystery"],
+    overview:
+      "Haunted by the guilt of her past and dealing with the demons of her present, a newly-appointed DCP, Rita Ferreira, must embark on an investigation of a series of murders that puts her on a collision course with a cold-blooded serial killer.",
+  },
+  {
+    id: "91239",
+    title: "Bridgerton S04 (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/uXTg565ahu9RwonCX1V2Hex1NU6.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/6umsRLI7t0ydFwCl0JNEIO0q2LH.jpg",
+    release_date: "2026-01-08",
+    vote_average: 7.2,
+    duration: "45m",
+    media_type: 'tv',
+    streams: {
+      "Server 1":
+        "https://zxcstream.xyz/player/tv/91239/s=1/e=1/english?autoplay=false&back=true&server=0",
+      "Server 2": "https://xprime.today/watch/91239/1/1",
+      "Server 3 - HINDI": "https://stmix.io/e/hriMo9qTXqA9U",
+      "Server 4": "https://api.cinezo.net/embed/tmdb-tv-91239/1/1",
+      "Server 5 ": "https://www.cinezo.net/watch/tv/91239?season=1&episode=1",
+    },
+    genres: ["Crime", "Drama", "Mystery"],
+    overview:
+      "Wealth, lust, and betrayal set in the backdrop of Regency era England, seen through the eyes of the powerful Bridgerton family.",
+  },
+  {
+    id: "198178",
     title: "Wonder Man S01 (2026)",
     poster_path:
       "https://image.tmdb.org/t/p/w500/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg",
@@ -1842,9 +1937,7 @@ export const UNIQUE_TV_SHOWS: MediaItem[] = [
       "Server 2": "https://xprime.today/watch/198178/1/1",
       "Server 3 ": "https://api.cinezo.net/embed/tmdb-tv-198178/1/1",
       "Server 4 ": "https://www.cinezo.net/watch/tv/198178?season=1&episode=1",
-      "Server 5 - HINDI":
-        "https://short.icu/Sl7KwC5M7?thumbnail=https://media.themoviedb.org/t/p/w780/3xdtP9D78ZFFBwIBXf3XWWQiqMB.jpg",
-       "Server 6 - HINDI": "https://byseqekaho.com/e/jm9h9ts4zkvl",   
+      "Server 5 - HINDI": "https://stmix.io/e/HJEtGuVS1yBo",   
     },
     genres: ["Comedy", "Drama", "Thriller"],
     overview:
@@ -1865,8 +1958,8 @@ export const UNIQUE_TV_SHOWS: MediaItem[] = [
       "Server 1":
         "https://zxcstream.xyz/player/tv/254071/s=1/e=1/english?autoplay=false&back=true&server=0",
       "Server 2": "https://xprime.today/watch/254071/1/1",
-      "Server 3": "https://byseqekaho.com/e/xxxxxxxx",
-      "Server 4 ": "https://api.cinezo.net/embed/tmdb-tv-254071/1/1",
+      "Server 3 - HINDI": "https://stmix.io/e/zd1Y3sArA3bs",
+      "Server 4": "https://api.cinezo.net/embed/tmdb-tv-254071/1/1",
       "Server 5 ": "https://www.cinezo.net/watch/tv/254071?season=1&episode=1",
       "Server 6 - HINDI":
         "https://short.icu/kB0-DCujU?thumbnail=https://media.themoviedb.org/t/p/w780/cm17eZBEI0jAsuwlIrw9L7K5lY2.jpg",
@@ -1887,8 +1980,7 @@ export const UNIQUE_TV_SHOWS: MediaItem[] = [
     duration: "45m",
     media_type: 'tv',
     streams: {
-      "Server 1":
-        "https://zxcstream.xyz/player/tv/311632/s=1/e=1/hindi?autoplay=false&back=true&server=0",
+      "Server 1": "https://stmix.io/e/2zYH1fFQgKys",
       "Server 2": "https://xprime.today/watch/311632/1/1",
       "Server 3": "https://byseqekaho.com/e/yxv57pc9qtxs",
       "Server 4 ": "https://api.cinezo.net/embed/tmdb-tv-311632/1/1",
@@ -1910,8 +2002,7 @@ export const UNIQUE_TV_SHOWS: MediaItem[] = [
     duration: "45m",
     media_type: 'tv',
     streams: {
-      "Server 1":
-        "https://zxcstream.xyz/player/tv/308482/s=1/e=1/hindi?autoplay=false&back=true&server=0",
+      "Server 1":"https://stmix.io/e/YJ80jBb6C9B5",
       "Server 2": "https://xprime.today/watch/308482/1/1",
       "Server 3": "https://byseqekaho.com/e/wrnmbynqqeyk",
       "Server 4 ": "https://api.cinezo.net/embed/tmdb-tv-308482/1/1",
@@ -1933,8 +2024,7 @@ export const UNIQUE_TV_SHOWS: MediaItem[] = [
     duration: "45m",
     media_type: 'tv',
     streams: {
-      "Server 1":
-        "https://zxcstream.xyz/player/tv/297594/s=2/e=1/hindi?autoplay=false&back=true&server=0",
+      "Server 1": "https://stmix.io/e/PaMIpZTnAE7b",
       "Server 2": "https://xprime.today/watch/297594/2/1",
       "Server 3": "https://byseqekaho.com/e/hv81w9p30urb",
       "Server 4 ": "https://api.cinezo.net/embed/tmdb-tv-297594/2/1",
@@ -1957,7 +2047,7 @@ export const UNIQUE_TV_SHOWS: MediaItem[] = [
     media_type: 'tv',
     streams: {
       "Server 1":
-        "https://zxcstream.xyz/player/tv/311171/s=1/e=1/hindi?autoplay=false&back=true&server=0",
+        "https://stmix.io/e/euvvLY1BD8F7",
       "Server 2": "https://xprime.today/watch/311171/1/1",
       "Server 3": "https://byseqekaho.com/e/f1i18ua20w0r",
       "Server 4": "https://short.icu/5ALJ-TlBZ?thumbnail=https://media.themoviedb.org/t/p/w780/eQJUKQMl0SvoHiYwAW2E0VoAwR2.jpg"
