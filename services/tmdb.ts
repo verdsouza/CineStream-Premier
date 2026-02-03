@@ -790,7 +790,81 @@ export const UNIQUE_TV_LIVE: MediaItem[] = [
 ];
 // 15 UNIQUE MOVIES (ALL FROM TMDB)
 export const UNIQUE_MOVIES: MediaItem[] = [
- {
+  {
+    id: "sirena-2026",
+    title: "Sirena (2026)",
+    poster_path:
+      "https://image.tmdb.org/t/p/w500/vOI7DzSJQylwqo1UgiIBZIftY7h.jpg",
+    backdrop_path:
+      "https://image.tmdb.org/t/p/original/bbjLZffHvztUrq4IfoepMzhE4VR.jpg",
+    release_date: "2026-01-26",
+    vote_average: 6.2,
+    duration: "1h 19m",
+    media_type: 'movie',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+      "Server 1": "https://stmix.io/e/5XJazmKmm5l5Y",
+      "Server 2": "https://byseqekaho.com/e/35nhuh8xcxvs",
+       },
+    overview:
+      "Lena and Mara are drawn into a secret affair that defies boundaries and threatens everything they’ve built. When Mara uncovers her groom’s betrayal, she finds solace in Lena, a newfound friend who soon becomes something more. As passion and secrecy collide, their choices endanger careers, fracture relationships, and lead to devastating consequences.",
+  },
+   {
+    id: "maaldar-2026",
+    title: "Maaldar (2026)",
+    poster_path:  "/images/movie/mal.jpg",
+    backdrop_path: "/images/movie/maldar.jpg",
+    release_date: "2026-01-26",
+    vote_average: 6.2,
+    duration: "1h 19m",
+    media_type: 'movie',
+    genres: ["Adult", "Romance", "Drama"],
+    streams: {
+      "Server 1": "https://stmix.io/e/lYENS9mtvukML",
+      "Server 2": "https://byseqekaho.com/e/aq6rr0tgebsi",
+       },
+    overview:
+      "Lena and Mara are drawn into a secret affair that defies boundaries and threatens everything they’ve built. When Mara uncovers her groom’s betrayal, she finds solace in Lena, a newfound friend who soon becomes something more. As passion and secrecy collide, their choices endanger careers, fracture relationships, and lead to devastating consequences.",
+  },
+  {
+    id: "speed-faster-2026",
+    title: "Speed Faster (2026) ",
+    poster_path:
+      "https://media.themoviedb.org/t/p/w500/dKYp9uUlDufvL0gWHve8nuzePdk.jpg",
+    backdrop_path:
+      "https://media.themoviedb.org/t/p/w780/nUMclZJRRwREfeP8liJ7LOddjnY.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Adventure ", "Comedy", "Mystery"],
+    streams: {
+      "Server 1": "https://stmix.io/e/cTWgLAJ4I50v7",
+      "Server 2": "https://byseqekaho.com/e/ptpj1jv2799q",
+      },
+    overview:
+      "Ace and his crew of elite street racers are forced into a high-stakes mission when a shadowy organization threatens someone close to him. In the aftermath of Four Amigos, they find themselves working for the infamous Church of Assassins, tasked with pulling off an impossible job. But as they push their limits, they uncover a chilling truth-failure was always part of the plan. Betrayal, speed, and survival collide in this adrenaline-fueled thriller where the real race isn't just for victory, but for their lives.",
+  },
+  {
+    id: "missing-the-boat-2026",
+    title: "Missing the Boat (2026) ",
+    poster_path:
+      "https://media.themoviedb.org/t/p/w500/2Lw8nVKLNvvfAG46fn2nAJwBrPg.jpg",
+    backdrop_path:
+      "https://media.themoviedb.org/t/p/w780/5Xiqdj6eiitWtyPmy0zakV3GYf.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'movie',
+    genres: ["Adventure ", "Comedy", "Mystery"],
+    streams: {
+      "Server 1": "https://stmix.io/e/acWrQSPMfmrqZ",
+      "Server 2": "https://byseqekaho.com/e/vo038510cxcp",
+      },
+    overview:
+      "Strangers Kelly and Parker both end up on the same Italian cruise, but after missing the boat during a stop, they're forced to team up and race across southern Italy to catch up.",
+  },
+   {
     id: "840464",
     title: "Greenland-2 Migration (2026)",
     poster_path:
@@ -987,10 +1061,11 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     streams: {
       "Server 1": "https://xprime.today/watch/1168190",
       "Server 2": "https://cinemaos.tech/player/1168190",
-      "Server 3 - Multi-Lang": "https://streamix.so/e/LOMcIVE2bYo9n",
-      "Server 4": "https://www.cinezo.net/watch/movie/1168190",
-      "Server 5": "https://vidsrc-embed.ru/embed/movie/1168190",
-      "Server 6": "https://api.cinezo.net/embed/tmdb-movie-1168190",
+      "Server 3 - Multi-Lang": "https://stmix.io/e/LOMcIVE2bYo9n",
+      "Server 4 - Multi-Lang": "https://byseqekaho.com/e/286iv24wz00l",
+      "Server 5": "https://www.cinezo.net/watch/movie/1168190",
+      "Server 6": "https://vidsrc-embed.ru/embed/movie/1168190",
+      "Server 7": "https://api.cinezo.net/embed/tmdb-movie-1168190",
     },
     overview:
       "Estranged half-brothers Jonny and James reunite after their father's mysterious death. As they search for the truth, buried secrets reveal a conspiracy threatening to tear their family apart. Multi language Available [Tam + Tel + Hin + Mal + Kan + Eng] Apply Settings",
