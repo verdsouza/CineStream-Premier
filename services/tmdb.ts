@@ -2038,6 +2038,21 @@ export const UNIQUE_MOVIES: MediaItem[] = [
 
 // 15 UNIQUE TV SHOWS (ALL FROM TMDB)
 export const UNIQUE_TV_SHOWS: MediaItem[] = [
+ {
+    id: "mayasabha-s01-2026-multi-lang",
+    title: "Mayasabha S01 (2026) Multi-Lang",
+    poster_path: "https://media.themoviedb.org/t/p/w500/ddhOEoAqefgzcxlx5hIvkFpF9cw.jpg",
+    backdrop_path: "https://media.themoviedb.org/t/p/w780/nofMFwwxPMkv76NqrbvoAVwiH4J.jpg",
+    release_date: "2026-01-16",
+    vote_average: 6.4,
+    duration: "2h 40m",
+    media_type: 'tv',
+    genres: ["War ", "Political", "Drama"],
+    streams: {
+      "Server 1 - Multi-Lang": "https://stmix.io/e/Bc7L0bPOfyok",
+    },
+    overview: "Mayasabha is a period political drama set in Mid 70s Andhra Pradesh. Krishnama Naidu, an idealistic student leader and a charismatic MS Rami Reddy wade into the world of Andhra politics. As they turn thick friends, they strive to use politics as a means to achieve public good. But caste fault lines erupt, loyalties are tested and their bond is pushed to the brink. Will their friendship sustain the brutal ascent of power where there is place for only one at the summit?",
+  },
   {
     id: "249766",
     title: "Daldal S01 (2025)",
