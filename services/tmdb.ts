@@ -797,96 +797,9 @@ export const UNIQUE_TV_LIVE: MediaItem[] = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 15 UNIQUE MOVIES (ALL FROM TMDB)
 export const UNIQUE_MOVIES: MediaItem[] = [
  {
-    id: "1616578",
-    title: "Delivery Boy Pizza On Time (2026) ",
-    poster_path: "https://media.themoviedb.org/t/p/w500/iy7UrpXGCcSpBqpY4yM9a0oU1Gm.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w780/rugUejUyBcQct1t6b2ysz3rrsjm.jpg",
-    release_date: "2026-01-16",
-    vote_average: 6.4,
-    duration: "2h 40m",
-    media_type: 'movie',
-    genres: ["Mystery", "Drama", "Thriller"],
-    streams: {
-      "Server 1": "https://stmix.io/e/DoMsumAkAZVA",
-      "Server 2": "https://xprime.today/watch/1616578",
-      "Server 3": "https://cinemaos.tech/player/1616578",
-      "Server 4": "https://www.cinezo.net/watch/movie/1616578",
-      "Server 5": "https://vidsrc-embed.ru/embed/movie/1616578",
-      "Server 6": "https://api.cinezo.net/embed/tmdb-movie-1616578",
-      // "Server 2": "https://byseqekaho.com/e/aq6rr0tgebsi",
-    },
-    overview: "When Riya’s husband is away, an ordinary evening takes an unexpected turn. Out of boredom, she begins chatting online with a stranger — someone charming yet mysterious. But soon, a pizza delivery boy shows up at her door with an order she never placed. As the night progresses, strange events begin to unfold. The delivery boy insists she accept the pizza, and the online stranger seems to know more about her than she ever shared. Caught between reality and suspicion, Riya must uncover who is behind the web of deceit — the delivery boy, the man on the cam, or someone else entirely. A gripping mystery–thriller where every message, every knock, and every face hides a secret.",
-  },
-  {
-    id: "1407523",
-    title: "Tu Meri Main Tera Main Tera Tu Meri (2025) ",
-    poster_path: "https://media.themoviedb.org/t/p/w500/4mJ4xhjBTBF8GOtsfr78Ebp76vS.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w780/iQGmmI5VwNW2cjrF2uQF8VhBGcw.jpg",
-    release_date: "2026-01-16",
-    vote_average: 6.4,
-    duration: "2h 40m",
-    media_type: 'movie',
-    genres: ["Romance", "Drama", "Thriller"],
-    streams: {
-      "Server 1": "https://stmix.io/e/DoMsumAkAZVA",
-      "Server 2": "https://xprime.today/watch/1407523",
-      "Server 3": "https://cinemaos.tech/player/1407523",
-      "Server 4": "https://www.cinezo.net/watch/movie/1407523",
-      "Server 5": "https://vidsrc-embed.ru/embed/movie/1407523",
-      "Server 6": "https://api.cinezo.net/embed/tmdb-movie-1407523",
-      // "Server 2": "https://byseqekaho.com/e/aq6rr0tgebsi",
-    },
-    overview: "When a carefree NRI wedding planner and a headstrong novelist collide during a wild summer in Croatia, sparks fly in ways neither expected. What begins as playful clashes soon transforms into something deeper – only to be tested when love, family, and tradition pull them in opposite directions.",
-  },
-  {
-    id: "1568964",
-    title: "Human Cocaine (2025) ",
-    poster_path: "https://media.themoviedb.org/t/p/w500/5u4PzItZ835kr7PyT6yuR5gI9p0.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w780/ado1wdhkVOOUkDnRP0mnJmQ5iWC.jpg",
-    release_date: "2026-01-16",
-    vote_average: 6.4,
-    duration: "2h 40m",
-    media_type: 'movie',
-    genres: ["Action", "Crime", "Thriller"],
-    streams: {
-      "Server 1": "https://stmix.io/e/5FigxkywkeEG",
-      "Server 2": "https://xprime.today/watch/1568964",
-      "Server 3": "https://cinemaos.tech/player/1568964",
-      "Server 4": "https://www.cinezo.net/watch/movie/1568964",
-      "Server 5": "https://vidsrc-embed.ru/embed/movie/1568964",
-      "Server 6": "https://api.cinezo.net/embed/tmdb-movie-1568964",
-      // "Server 2": "https://byseqekaho.com/e/aq6rr0tgebsi",
-    },
-    overview: "Arjun, a UK based cab driver who is financially struggling to get his estranged wife and daughter back, finds an opportunity to make GBP 25,000 The job is simple: Deliver a parcel to a given address. Along the way, helps a hitchhiker Liza by giving her a ride. But what he doesn’t know is how he is endangering both their lives.",
-  },
-  {
     id: "1433842",
     title: "Relationship Goals (2026) Multi-Lang",
     poster_path: "https://media.themoviedb.org/t/p/w500/o7dVxvZIKnAB7k1eeeWp2k14Es7.jpg",
@@ -898,12 +811,11 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     genres: ["Romance ", "Comedy", "Drama"],
     streams: {
       "Server 1 - Multi-Lang": "https://stmix.io/e/fzh60cMcTmlf",
-      "Server 2": "https://xprime.today/watch/1433842",
-      "Server 3": "https://cinemaos.tech/player/1433842",
+      "Server 2": "https://cinemaos.tech/player/1433842",
+      "Server 3 ": "https://xprime.today/watch/1433842",
       "Server 4": "https://www.cinezo.net/watch/movie/1433842",
       "Server 5": "https://vidsrc-embed.ru/embed/movie/1433842",
       "Server 6": "https://api.cinezo.net/embed/tmdb-movie-1433842",
-      // "Server 2": "https://byseqekaho.com/e/aq6rr0tgebsi",
     },
     overview: "When TV producer Leah Caldwell aims to become the first woman running New York's top morning show, her ex competes for the same role. Leah stays focused on her career, until chemistry with her ex challenges her priorities.",
   },
@@ -919,17 +831,16 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     genres: ["Romance ", "Comedy", "Drama"],
     streams: {
       "Server 1 - Multi-Lang": "https://stmix.io/e/TP5qsutqmLRk",
-      "Server 2": "https://xprime.today/watch/1466115",
-      "Server 3": "https://cinemaos.tech/player/1466115",
+      "Server 2": "https://cinemaos.tech/player/1466115",
+      "Server 3 ": "https://xprime.today/watch/1466115",
       "Server 4": "https://www.cinezo.net/watch/movie/1466115",
       "Server 5": "https://vidsrc-embed.ru/embed/movie/1466115",
       "Server 6": "https://api.cinezo.net/embed/tmdb-movie-1466115",
-      // "Server 2": "https://byseqekaho.com/e/aq6rr0tgebsi",
     },
     overview: "A high school girl wakes up each day with no memory of yesterday. When she agrees to date a shy classmate, can their love grow with every new beginning?",
   },
   {
-    id: "1417849",
+    id: "nari-nari-naduma-murari-2026-multi-lang",
     title: "Nari Nari Naduma Murari (2026) Multi-Lang",
     poster_path: "https://media.themoviedb.org/t/p/w500/jFBu7tS0mlEZwYTkjJcKH48bV4m.jpg",
     backdrop_path: "https://media.themoviedb.org/t/p/w780/8o1b4G5Uv5EFQ64Sicz1ae7WLsT.jpg",
@@ -940,12 +851,6 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     genres: ["Romance ", "Comedy", "Drama"],
     streams: {
       "Server 1 - Multi-Lang": "https://stmix.io/e/CiPRB7uPObye",
-      "Server 2": "https://xprime.today/watch/1417849",
-      "Server 3": "https://cinemaos.tech/player/1417849",
-      "Server 4": "https://www.cinezo.net/watch/movie/1417849",
-      "Server 5": "https://vidsrc-embed.ru/embed/movie/1417849",
-      "Server 6": "https://api.cinezo.net/embed/tmdb-movie-1417849",
-      // "Server 2": "https://byseqekaho.com/e/aq6rr0tgebsi",
     },
     overview: "A young man's life turns upside down when he finds himself caught between two women, leading to an unexpected love triangle filled with emotions, misunderstandings, and tough decisions. As relationships intertwine, he must confront his feelings, face reality, and choose what truly matters, blending romance with heartfelt family drama.",
   },
@@ -961,12 +866,11 @@ export const UNIQUE_MOVIES: MediaItem[] = [
     genres: ["Adult", "Romance", "Drama"],
     streams: {
       "Server 1": "https://stmix.io/e/7tyq4fhUZ3xx",
-      "Server 2": "https://xprime.today/watch/1559596",
-      "Server 3": "https://cinemaos.tech/player/1559596",
+      "Server 2": "https://cinemaos.tech/player/1559596",
+      "Server 3 ": "https://xprime.today/watch/1559596",
       "Server 4": "https://www.cinezo.net/watch/movie/1559596",
       "Server 5": "https://vidsrc-embed.ru/embed/movie/1559596",
       "Server 6": "https://api.cinezo.net/embed/tmdb-movie-1559596",
-      // "Server 2": "https://byseqekaho.com/e/aq6rr0tgebsi",
     },
     overview: "VMX hottie Christy Imperial gives fans a taste of VMX GL Crush Robb Guinto's spiciest and tastiest scenes",
   },
@@ -2132,54 +2036,8 @@ export const UNIQUE_MOVIES: MediaItem[] = [
 ];
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 15 UNIQUE TV SHOWS (ALL FROM TMDB)
 export const UNIQUE_TV_SHOWS: MediaItem[] = [
-  {
-    id: "297310",
-    title: "Mayasabha S01 (2026) Multi-Lang",
-    poster_path: "https://media.themoviedb.org/t/p/w500/ddhOEoAqefgzcxlx5hIvkFpF9cw.jpg",
-    backdrop_path: "https://media.themoviedb.org/t/p/w780/nofMFwwxPMkv76NqrbvoAVwiH4J.jpg",
-    release_date: "2026-01-16",
-    vote_average: 6.4,
-    duration: "2h 40m",
-    media_type: 'tv',
-    genres: ["War ", "Political", "Drama"],
-    streams: {
-      "Server 1 - Multi-Lang": "https://stmix.io/e/Bc7L0bPOfyok",
-      // "Server 2 - Multi-Lang": "https://byseqekaho.com/e/286iv24wz00l",
-    },
-    overview: "Mayasabha is a period political drama set in Mid 70s Andhra Pradesh. Krishnama Naidu, an idealistic student leader and a charismatic MS Rami Reddy wade into the world of Andhra politics. As they turn thick friends, they strive to use politics as a means to achieve public good. But caste fault lines erupt, loyalties are tested and their bond is pushed to the brink. Will their friendship sustain the brutal ascent of power where there is place for only one at the summit?",
-  }
   {
     id: "249766",
     title: "Daldal S01 (2025)",
